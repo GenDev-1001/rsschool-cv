@@ -41,3 +41,34 @@ direction and do not dwell on achieved.
 |   2017 - 2019   |         MASTER         |  GRODNO STATE POLYTECHNIC COLLEGE  |
 |   2020 - 2021   |  SYSTEM ADMINISTRATOR  |           COR “VICTORIYA”          |
 |   2017 - 2021   |        FREELANCE       |                HOME                |
+
+### 🤖CODE EXAMPLE:
+```js
+const array = Array(100).fill(null).map(()=> Math.floor((Math.random()* 2000)-1000))
+function selectionSort(array){
+    for (let n = 0; n<array.length-1; n++){
+        let min = Infinity
+        let minIndex = null
+        for (let i = n; i<array.length; i++){
+            if (array[i] < min) {
+                min = array[i];
+                minIndex = i;
+            }
+        }
+        const buff = array[n];
+        array[n] = min;
+        array[minIndex] = buff;
+    }
+    return array
+}
+```
+
+---
+
+### 🖱️SKILLS AND PROFICIENCY:
+![skills](./images/skills-photoshop.png) &nbsp; &nbsp; ![skills](./images/skills-illustrator.png) &nbsp; &nbsp; &nbsp; ![skills](./images/skills-html.png) &nbsp; &nbsp; &nbsp; ![skills](./images/skills-css.png) &nbsp; &nbsp; &nbsp; ![skills](./images/skills-js.png) \
+███░ 87% &nbsp; ███░ 75% &nbsp; ███░ 90% &nbsp; ███░ 77% &nbsp; ██░░ 50%
+
+---
+
+🎅 **rs-school 2022** 🎅
