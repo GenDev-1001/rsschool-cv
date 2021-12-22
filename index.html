@@ -175,7 +175,7 @@
                     <h3 class="title code__title">Code examples</h3>
                     <pre class="code__content">
                     <code class="language-javascript hljs__custom-style">
- function SelectionSort(array) {
+ function selectionSort(array) {
      for (let n = 0; n < array.length-1; n++) {
          let max = -Infinity;
          let index = null;
@@ -185,7 +185,6 @@
                  index = i;
              }
          }
-
      const buff = array[array.length - 1 - n];
      array[array.length - 1 - n] = max
      array[index] = buff;
