@@ -17,3 +17,27 @@ responsibility and always listen to opinion and criticism of colleagues. I am co
 direction and do not dwell on achieved.
 
 ---
+
+### 📖LANGUAGES:
+1. 📙English - Intermediate
+2. 📘Russian - Native
+3. 📗Belarusian - Native
+
+---
+
+### 📍CONTACTS:
+* 📞Phone: +375 (33) 372-70-61
+* 📧Email: gennadiy.konko@mail.ru
+* 🗺️Address: Belarus, Grodno
+* ❤️Github: [GenDev-1001](https://github.com/GenDev-1001)
+* 🔥Linkedin: [Gennadiy Konko](https://www.linkedin.com/in/gennadiy-konko-12508a226/)
+
+---
+
+### 👔EXPERIENCE:
+
+|      Year       |         Position       |            Place of work           |
+|:----------------|:----------------------:|:----------------------------------:|
+|   2017 - 2019   |         MASTER         |  GRODNO STATE POLYTECHNIC COLLEGE  |
+|   2020 - 2021   |  SYSTEM ADMINISTRATOR  |           COR “VICTORIYA”          |
+|   2017 - 2021   |        FREELANCE       |                HOME                |
