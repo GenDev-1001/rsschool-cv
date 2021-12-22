@@ -600,3 +600,496 @@ button{
     left: 0;
 }
 
+/*adaptive*/
+
+@media (max-width: 1170px) {
+    .cv {
+        display: block;
+    }
+
+    .cv__right{
+        margin-bottom: 10px;
+    }
+
+    .cv__left, .cv__right {
+        max-width: 100%;
+    }
+
+    .personal-info__box {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .personal-info__img {
+        margin: 0 50px 0 0;
+    }
+
+    .personal-info__yellow-card {
+        width: 100%;
+    }
+
+    .personal-info__yellow-card:after,
+    .personal-info__yellow-card:before {
+        display: none;
+    }
+
+    .background__box-grey {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .skills {
+        margin: 0 50px 0 0;
+    }
+
+    .contacts__list:before {
+        height: 210px;
+        top: -20px;
+    }
+
+    .profile-info {
+        margin: -40px auto 40px;
+
+    }
+
+    .profile-info::before {
+        width: 100%;
+        left: 0;
+    }
+
+    .profile-info {
+        margin: -40px 0 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title.profile-info__title::before {
+        width: 100%;
+    }
+
+    .profile-info__title-main {
+        padding-top: 0;
+    }
+
+    .languages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .title.languages__title::before,
+    .title.experience__title::before,
+    .title.personality__title::before,
+    .title.code__title::before,
+    .title.projects__title::before,
+    .title.hobbies__title::before {
+        width: 100%;
+    }
+
+    .experience, .github, .personality, .code, .projects, .hobbies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience__table-td {
+        max-width: 500px;
+        border: 1px solid #ffca05;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .experience__table-tr > .experience__table-td {
+        margin-right: 0;
+    }
+
+    .code__content{
+        margin-right: 0;
+    }
+
+    .projects__items {
+        margin-right: 0;
+    }
+
+    .hljs__custom-style{
+        width: 100%;
+        padding: 0.5rem 2.5rem !important;
+    }
+}
+
+@media(max-width: 880px){
+    .menu-btn{
+        display: block;
+    }
+
+    .menu__list{
+        transform: translateY(-150%);
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #ffca05;
+        margin-top: 73px;
+        padding-bottom: 30px;
+        text-align: center;
+        width: calc(100% - 20px);
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .menu__list-item{
+        margin-right: 0;
+    }
+
+    .menu__list.active {
+        transform: translateY(0);
+    }
+
+    .projects__item-img {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 720px) {
+    .personal-info__box {
+        display: block;
+        padding: 20px 10px;
+    }
+
+    .personal-info__img {
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+    }
+
+    .personal-info__box-adaptive {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .title.personal-info__title:before {
+        width: 100%;
+    }
+
+    .personal-info__subtitle {
+        font-size: 16px;
+    }
+
+    .personal-info__text {
+        font-size: 14px;
+    }
+
+    .title{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .title::before{
+        top: 95px;
+    }
+
+    .background__box-grey {
+        background-color: #fff;
+        display: block;
+    }
+
+    .skills, .contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .skills__inner{
+        grid-template-columns: repeat(6, 50px);
+        grid-gap: 10px;
+    }
+
+    .skills__img {
+        max-width: 50px;
+    }
+
+    .skills__img:nth-child(10) {
+        grid-column: 4 / 6;
+        max-width: 100px;
+        max-height: 60px;
+    }
+
+    .title.skills__title:before {
+        width: 100%;
+    }
+
+    .contacts__list:before {
+        display: none;
+    }
+
+    .profile-info {
+        margin: -40px 0 20px;
+    }
+
+    .profile-info:before{
+        display: none;
+    }
+
+    .profile-info__title-main {
+        font-size: 48px;
+    }
+
+    .profile-info__title-main span {
+        font-size: 48px;
+    }
+
+    .profile-info__subtitle {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    .profile-info__text {
+        text-align: center;
+    }
+
+    .languages{
+        padding-top: 0;
+    }
+
+    .languages__text{
+        font-size: 16px;
+    }
+
+    .experience__table-tr {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .personality__list{
+        text-align: center;
+    }
+
+    .personality__list-item{
+        font-size: 16px;
+    }
+
+    .code__title{
+        margin-bottom: 5px;
+    }
+
+    .code__content{
+        font-size: 12px;
+    }
+
+    .projects__item-img {
+        max-width: 450px;
+    }
+
+    .projects__item-info{
+        font-size: 16px;
+    }
+
+    .footer__inner{
+        flex-direction: column;
+    }
+
+    .footer__info{
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .footer__info:after {
+        width: 16px;
+        height: 16px;
+        left: -22px;
+        top: -2px;
+    }
+
+    .menu__list-item{
+        font-size: 16px;
+    }
+
+}
+
+
+@media(max-width: 520px){
+
+    .background__box-grey {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .personal-info__img {
+        max-width: 220px;
+    }
+
+    .contacts__list-text{
+        font-size: 16px;
+    }
+
+    .contacts__list-link,
+    .contacts__list-location{
+        font-size: 14px;
+    }
+
+    .profile-info__title-main {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .profile-info__title-main span {
+        font-size: 30px;
+    }
+
+    .profile-info__subtitle {
+        font-size: 14px;
+    }
+
+    .profile-info__text {
+        font-size: 14px;
+    }
+
+    .languages__text{
+        font-size: 16px;
+    }
+
+    .experience__table-tr {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .experience__table-td {
+        padding: 5px;
+    }
+
+    .personality__list{
+        width: 100%;
+    }
+
+    .personality__list-item{
+        display: block;
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    .code__content{
+        font-size: 11px;
+    }
+
+    .hljs__custom-style {
+        padding: 0.5rem 1rem !important;
+    }
+
+    .projects__item-img {
+        max-width: 350px;
+    }
+
+    .projects__item-info{
+        font-size: 14px;
+    }
+
+    .hobbies__img {
+        max-width: 50px;
+        margin-right: 10px;
+    }
+
+    .footer__info{
+        font-size: 14px;
+    }
+
+    .footer__info:after {
+        width: 13px;
+        height: 13px;
+        left: -18px;
+        top: -1px;
+    }
+
+    .menu__list-item{
+        font-size: 14px;
+    }
+
+}
+
+@media(max-width: 400px){
+
+    .personal-info__img {
+        max-width: 180px;
+    }
+
+    .title{
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .title::before{
+        top: 87px
+    }
+
+    .personal-info__yellow-card {
+        font-size: 14px;
+    }
+
+    .personal-info__subtitle {
+        font-size: 14px;
+    }
+
+    .personal-info__text {
+        font-size: 12px;
+    }
+
+    .skills__inner{
+        grid-template-columns: repeat(4, 40px);
+        grid-gap: 10px;
+    }
+
+    .skills__img {
+        max-width: 40px;
+        max-height: 50px;
+    }
+
+    .skills__img:nth-child(10) {
+        grid-column: 2 / 4;
+        max-width: 90px;
+        max-height: 50px;
+    }
+
+    .profile-info__subtitle{
+        font-size: 12px;
+    }
+
+    .profile-info__text {
+        font-size: 12px;
+    }
+
+    .languages__text{
+        font-size: 14px;
+    }
+
+    .experience__table-tr {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .experience__table-td {
+        padding: 2px;
+    }
+
+    .code__content{
+        font-size: 9px;
+    }
+
+    .projects__item-info{
+        font-size: 12px;
+    }
+
+    .hljs__custom-style {
+        padding: 0.3rem 0.2rem !important;
+    }
+
+    .projects__item-img {
+        max-width: 280px;
+    }
+
+}
