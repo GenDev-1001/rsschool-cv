@@ -4,13 +4,13 @@
 
 ---
 
-### 🏫EDUCATION:
+### 🏫 EDUCATION:
 - Grodno State Polytechnic College - _technician_ (2013-2017)
 - Belarusian National Technical University - _software engineer_ (2017-2021)
 
 ---
 
-### 🧔BRIEFLY ABOUT MYSELF:
+### 🧔 BRIEFLY ABOUT MYSELF:
 My name is __Gennadiy Konko__. Sphere of development. I am engaged in more than 1 year. I have knowledge of JS and OOP. I have
 experience with React, Redux, GitHub. Worked with Adobe PS and Adobe Illustrator. I approach work and tasks with
 responsibility and always listen to opinion and criticism of colleagues. I am constantly developing in professional
@@ -18,14 +18,14 @@ direction and do not dwell on achieved.
 
 ---
 
-### 📖LANGUAGES:
+### 📖 LANGUAGES:
 1. 📙English - Intermediate
 2. 📘Russian - Native
 3. 📗Belarusian - Native
 
 ---
 
-### 📍CONTACTS:
+### 📍 CONTACTS:
 * 📞Phone: +375 (33) 372-70-61
 * 📧Email: gennadiy.konko@mail.ru
 * 🗺️Address: Belarus, Grodno
@@ -34,7 +34,7 @@ direction and do not dwell on achieved.
 
 ---
 
-### 👔EXPERIENCE:
+### 👔 EXPERIENCE:
 
 |      Year       |         Position       |            Place of work           |
 |:----------------|:----------------------:|:----------------------------------:|
@@ -42,7 +42,7 @@ direction and do not dwell on achieved.
 |   2020 - 2021   |  SYSTEM ADMINISTRATOR  |           COR “VICTORIYA”          |
 |   2017 - 2021   |        FREELANCE       |                HOME                |
 
-### 🤖CODE EXAMPLE:
+### 🤖 CODE EXAMPLE:
 ```js
 const array = Array(100).fill(null).map(()=> Math.floor((Math.random()* 2000)-1000))
 function selectionSort(array){
@@ -65,7 +65,7 @@ function selectionSort(array){
 
 ---
 
-### 🖱️SKILLS AND PROFICIENCY:
+### 🖱️ SKILLS AND PROFICIENCY:
 ![skills](./images/skills-photoshop.png) &nbsp; &nbsp; ![skills](./images/skills-illustrator.png) &nbsp; &nbsp; &nbsp; ![skills](./images/skills-html.png) &nbsp; &nbsp; &nbsp; ![skills](./images/skills-css.png) &nbsp; &nbsp; &nbsp; ![skills](./images/skills-js.png) \
 ███░ 87% &nbsp; ███░ 75% &nbsp; ███░ 90% &nbsp; ███░ 77% &nbsp; ██░░ 50%
 
